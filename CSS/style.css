@@ -37,3 +37,44 @@ body {
     height: 100%;
     margin: 0;
 }
+.flex-container {
+    display: flex;
+    background-color: var(--color-light);
+}
+.flex-container__item {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 40rem;
+}
+.flex-container__item img {
+    width: 100%;
+    max-width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+
+.PhotoBorder {
+    border-color: #627833;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 8px;
+}
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(252, 76, 130);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(252, 76, 129, 0.842);
+  }
